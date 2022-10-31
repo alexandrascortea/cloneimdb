@@ -1,0 +1,160 @@
+.movie-name-class {
+    background-color: blue;
+    width: 250px;
+}
+
+.movie-name-class-red {
+    background-color: red;
+}
+
+.red {
+    color: red;
+}
+
+.error-messages-valid {
+    display:none;
+}
+
+.error-messages-invalid {
+    color: red;
+}
+
+
+
+.invalid-field {
+    border-color: red;
+}
+
+input:focus {
+    outline: none;
+}
+
+.hidden {
+    display: none;
+}
+
+/* ----------------------------------------------Style FirstPage--------------------------- */
+.group1 {
+    height: 329px; 
+ }
+ .group1 .image {
+   width: 250px;
+ }
+ img {
+   height: 100%;
+ }
+ .group2 {
+   height: 330px;
+ }
+ .group2 .images2 {
+   width: 250px;
+ }
+
+ .group3 {
+   height: 330px;
+ }
+ 
+ .group3 .images3 {
+   width: 250px;
+  
+ }
+.text_font{
+   font-family: "Brush Script MT"
+}
+
+
+/* ------------------------------------------------------------------------------------------- */
+.login{
+    background-color: #ebb434;
+}
+.nav .nav-link:hover {
+    color:#ebb434;
+}
+/* @include media-breakpoint-down(md) { 
+    .logo img{
+        visibility:none;
+    }
+ } */
+
+  
+ .divider:after,
+ .divider:before {
+ content: "";
+ flex: 1;
+ height: 1px;
+ background: #4d79ff;
+ }
+ .h-custom {
+ height: calc(100% - 73px);
+ }
+ @media (max-width: 450px) {
+ .h-custom {
+ height: 100%;
+ }
+ }
+
+img.d-block{
+    top:0;
+    left: 0;
+    min-height: 100px;
+    object-fit:cover;
+}
+
+
+@media (max-width: 768px){
+    .cards-new {
+        display: block;
+    }
+    }
+
+@media(max-width:769px){
+    .logo{
+        display: none;
+    }
+}
+
+.news1{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+
+}
+
+@media (max-width: 768px){
+    .cards-news {
+        display: block;
+    }
+    }
+
+.bg-light{
+    background-color: transparent !important;
+}
+
+.error-valid{
+   display: none;
+    
+}
+.error-invalid{
+    color: red;
+}
+
+
+.cards-wrapper{
+    display: flex;
+}
+@media (max-width: 768px){
+    .cards-new {
+        display: block;
+    }
+    }
+
+.card{
+margin: 0 0.5em;
+    
+    }
+
+@media(max-width:995px){
+    .right{
+        display: none;
+    }
+}

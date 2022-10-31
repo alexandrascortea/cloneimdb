@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
+
+</head>
+<header>
+  <nav class="nav navbar navbar-expand-md bg-black  navbar-expand-lg">
+
+      <div class="container-fluid ">
+          <button class="navbar-toggler bg-primary" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <a href="movies.html"><img src="assets/images/Images/logo_movie.png" width="64" height="64"
+                  class="img-fluid justify-content-end logo" alt="logo"></a>
+
+          <div class="collapse navbar-collapse justify-content-end my-2" id="navbarNav">
+
+
+              <div class="input-group ">
+
+                <input id="search-movie" class="form-control me-2 rounded-pill" type="text" placeholder="Search after name" >
+                <input id="search-movie-year" class="form-control me-2 rounded-pill" type="text" placeholder="Search after year">
+                
+   
+                
+                <button id ="search-btn"class="btn btn-outline-primary rounded-pill" value="search" type="submit">Search</button>
+                
+              
+
+              </div>
+              <button for="search-movie-in-watchlist" id="watchlistBtn" class=" btn btn-outline-primary mx-2 rounded-pill my-2"> Watchlist</button>
+              <div class="dropdown">
+                <a href="#" class="nav-link  text-primary nav-link dropdown-toggle "
+                    data-bs-toggle="dropdown" aria-expanded="false">About</a>
+                        <ul class="dropdown-menu dropdown-menu-dark " aria-labelledby="dropdownMenuButton1">
+                            <li><a href="top10.html" class="dropdown-item " >Top 10</a></li>
+                            <li><a href="releases.html" class="dropdown-item " >New Releases</a></li>
+
+                        </ul>
+            </div>
+              <a class="nav-link active" href="movies.html" aria-current="page">Home</a>
+              
+
+              
+
+          </div>
+          <div class="dropdown">
+              <a  class="nav-link rounded-pill login text-primary nav-link dropdown-toggle "
+                  data-bs-toggle="dropdown" aria-expanded="false">Alexandra<i
+                      class="bi bi-person-circle mx-1 "></i></a>
+                      <ul class="dropdown-menu dropdown-menu-dark " aria-labelledby="dropdownMenuButton1">
+                          <li><a href="signin.html" class="dropdown-item " id="btn-logout">Logout</a></li>
+                      </ul>
+          </div>
+      </div>
+  </nav>
+</header>
+
+<body class="bg-black">
+  <main>
+    <nav class="navbar navbar-default">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb mx-5">
+          <li class="breadcrumb-item"><a href="movies.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">More info</li>
+        </ol>
+      </nav>
+    </nav>
+    <div class="container">
+        <div id="infoCards"></div>
+    </div>
+    <script src="assets/scripts/script.js"></script>
+    <script src="assets/scripts/infoCard.js"></script>
+   
+  </main>
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
